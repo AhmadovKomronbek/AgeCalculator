@@ -1,0 +1,38 @@
+body{
+    background: rgb(151,124,255);
+    background: linear-gradient(180deg, rgba(151,124,255,1) 0%, rgba(2,0,116,1) 100%) !important;
+    height: 100vh;
+}
+
+.row .btn a:hover{
+    color: white;
+}
+input , select{
+    border: 1px solid black !important;
+}
+.title-2{
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(12,0,255,1) 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.title-1{
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(12,0,255,1) 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-start{
+    border: 2px solid black !important;
+    color: black !important;
+    transition: 0.5s !important;
+}
+.btn:hover{
+    background-color: black !important;
+    border: 2px solid white !important;
+    color: white !important;
+    transform: scale(1.1);
+}
+.btn-restart{
+    border: 2px solid black !important;
+    background-color: white !important;
+    font-weight: bold !important;
+}
